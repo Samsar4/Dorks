@@ -1,4 +1,9 @@
-site:https://api.vtexcrm.com.br/FUZZ
+inurl:“/spacedirectory/view.action” site:FUZZ
+“/pages/viewpage.action?” site:FUZZ
+site:pastebin.com FUZZ"
+site:anonfiles.com FUZZ"
+site:docs.google.com FUZZ"
+inurl:https://t.me" site:me "FUZZ"
 site:pastebin.com FUZZ
 inurl:pastebin @FUZZ
 site:pastebin.com @FUZZ "password"
@@ -10,12 +15,6 @@ intitle:index of" "/usernames" | "usuarios" | "users" "FUZZ"
 https://chat.whatsapp.com/" & site:br"
 inurl:logon.html CSCOE" "FUZZ"
 intitle:dashboard-confluence FUZZ"
-inurl:“/spacedirectory/view.action” site:FUZZ
-“/pages/viewpage.action?” site:FUZZ
-site:pastebin.com FUZZ"
-site:anonfiles.com FUZZ"
-site:docs.google.com FUZZ"
-inurl:https://t.me" site:me "FUZZ"
 site:me joinchat" "FUZZ"
 site:app.powerbi.com/view?r intext:FUZZ"
 site:FUZZ ext:doc | ext:docx | ext:odt | ext:rtf | ext:sxw | ext:psw | ext:ppt | ext:pptx | ext:pps | ext:csv
@@ -31,6 +30,7 @@ site:FUZZ intitle:index.of
 site:FUZZ ext:xml | ext:conf | ext:cnf | ext:reg | ext:inf | ext:rdp | ext:cfg | ext:txt | ext:ora | ext:ini
 site:FUZZ ext:sql | ext:dbf | ext:mdb
 site:FUZZ ext:bkf | ext:bkp | ext:bak | ext:old | ext:backup
+site:https://api.vtexcrm.com.br/FUZZ
 site:FUZZ inurl:login | inurl:signin | intitle:Login | intitle: signin | inurl:auth
 site:FUZZ inurl:redirecionamento | inurl:redirection= | inurl:redir= | inurl:url= | inurl:redirect= | inurl:return= | inurl:src=http | inurl:r=http
 site:FUZZ ext:action | ext:struts | ext:do
@@ -399,4 +399,3 @@ site:FUZZ inurl:.php?para=""
 site:FUZZ inurl:.php?prefix=""
 site:FUZZ inurl:.php?prefixo=""
 site:FUZZ inurl:timeout=""
-site:reclameaqui.com.br intext:FUZZ | intext:FUZZ segurança
