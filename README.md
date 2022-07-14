@@ -1,2 +1,2 @@
 # Dorks
-dorks, why not?
+Google dorks, why not?
