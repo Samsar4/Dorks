@@ -1,0 +1,402 @@
+site:https://api.vtexcrm.com.br/FUZZ
+site:pastebin.com FUZZ
+inurl:pastebin @FUZZ
+site:pastebin.com @FUZZ "password"
+inurl:/swagger-ui/index.html site:FUZZ
+intitle:Admin Login" inurl:"login.aspx" "FUZZ"
+inurl:/wp-content/uploads/ ext:txt username" | "user name" | "uname" | "user" | "userid" | "user id" AND "password" | "pass word" | "pwd" | "pw"
+intitle:index.of /email /robots.txt site:FUZZ
+intitle:index of" "/usernames" | "usuarios" | "users" "FUZZ"
+https://chat.whatsapp.com/" & site:br"
+inurl:logon.html CSCOE" "FUZZ"
+intitle:dashboard-confluence FUZZ"
+inurl:“/spacedirectory/view.action” site:FUZZ
+“/pages/viewpage.action?” site:FUZZ
+site:pastebin.com FUZZ"
+site:anonfiles.com FUZZ"
+site:docs.google.com FUZZ"
+inurl:https://t.me" site:me "FUZZ"
+site:me joinchat" "FUZZ"
+site:app.powerbi.com/view?r intext:FUZZ"
+site:FUZZ ext:doc | ext:docx | ext:odt | ext:rtf | ext:sxw | ext:psw | ext:ppt | ext:pptx | ext:pps | ext:csv
+site:FUZZ filetype:log
+site:FUZZ filetype:log allintext:password
+site:FUZZ ext:ppt | ext:docx | ext:rtf | ext:csv | ext:doc intext:password
+site:FUZZ inurl:login.jsp
+site:FUZZ  inurl:login.aspx""
+intitle:index of" "/cgi-bin" "admin" site:FUZZ"
+inurl:index.php?db=" "FUZZ"
+db_password filetype:env FUZZ"
+site:FUZZ intitle:index.of
+site:FUZZ ext:xml | ext:conf | ext:cnf | ext:reg | ext:inf | ext:rdp | ext:cfg | ext:txt | ext:ora | ext:ini
+site:FUZZ ext:sql | ext:dbf | ext:mdb
+site:FUZZ ext:bkf | ext:bkp | ext:bak | ext:old | ext:backup
+site:FUZZ inurl:login | inurl:signin | intitle:Login | intitle: signin | inurl:auth
+site:FUZZ inurl:redirecionamento | inurl:redirection= | inurl:redir= | inurl:url= | inurl:redirect= | inurl:return= | inurl:src=http | inurl:r=http
+site:FUZZ ext:action | ext:struts | ext:do
+site:http://ideone.com | site:http://codebeautify.org | site:http://codeshare.io | site:http://codepen.io | site:http://repl.it | site:http://justpaste.it | site:http://pastebin.com | site:http://jsfiddle.net | site:http://trello.com | site:*.atlassian.net | site:bitbucket.org FUZZ""
+site:FUZZ inurl:/phpinfo.php | inurl:.htaccess
+site:atlassian.net | site:bitbucket.org FUZZ""
+site:atlassian.net | site:bitbucket.org FUZZ""
+site:stackoverflow.com FUZZ""
+site:digitaloceanspaces.com FUZZ""
+site:.s3.amazonaws.com FUZZ""
+.sharepoint.com/_vti_bin/webpartpages/asmx -docs -msdn -mdsec site:FUZZ
+site:FUZZ filetype:wsdl | filetype:WSDL | ext:svc | inurl:wsdl | Filetype: ?wsdl | inurl:asmx?wsdl | inurl:jws?wsdl | intitle:_vti_bin/sites.asmx?wsdl | inurl:_vti_bin/sites.asmx?wsdl
+inurl:http://confluence.FUZZ login.action
+inurl:https://wiki.FUZZ/confluence/
+inurl:winlib.aspx" site:FUZZ"
+inurl:”.php?id=” site:FUZZ
+inurl:”.home.php?cat=” site:FUZZ
+inurl:”www/index.php?page=” site:FUZZ
+inurl:/view.php?uid=” site:FUZZ"
+inurl:m_view.php?ps_db=” site:FUZZ"
+inurl:product_info.php?products_id=” site:FUZZ"
+inurl:products.php?cat=" site:FUZZ"
+inurl:product.php?sku=" site:FUZZ"
+inurl:store/product.php?productid=" site:FUZZ"
+inurl:productList.php?cat=" site:FUZZ"
+inurl:product_detail.php?product_id=" site:FUZZ"
+inurl:product.php?pid=" site:FUZZ"
+inurl:more_details.php?id=" site:FUZZ"
+inurl:products.php?act=" site:FUZZ"
+inurl:details.php?prodId=" site:FUZZ"
+inurl:index.php?modus=" site:FUZZ"
+inurl:news_item.php?id=" site:FUZZ"
+inurl:rss.php?cat=" site:FUZZ"
+inurl:products/product.php?id=" site:FUZZ"
+inurl:inurl:"order.asp?id=" site:FUZZ"
+inurl:bbs/bbsView.php?id=" site:FUZZ"
+inurl:boardView.php?bbs=" site:FUZZ"
+inurl:product/product.php?cate=" site:FUZZ"
+inurl:content.php?p=" site:FUZZ"
+inurl:page.php?module=" site:FUZZ"
+inurl:?pid=" site:FUZZ"
+inurl:bookpage.php?id=" site:FUZZ"
+inurl:content.php?id=" site:FUZZ"
+inurl:news.php?ID=" site:FUZZ"
+inurl:photogallery.php?id=" site:FUZZ"
+inurl:index.php?id=" site:FUZZ"
+inurl:product/product.php?product_no=" site:FUZZ"
+inurl:print.php?id=" site:FUZZ"
+inurl:detail.php?id=" site:FUZZ"
+inurl:content.php?PID=" site:FUZZ"
+inurl:more_detail.php?id=" site:FUZZ"
+inurl:view_author.php?id=" site:FUZZ"
+inurl:main.php?id=" site:FUZZ"
+inurl:product_details.php?prodid=" site:FUZZ"
+inurl:catalog/product.php?cat_id=" site:FUZZ"
+inurl:products.php?p=" site:FUZZ"
+inurl:StoreRedirect.php?ID=" site:FUZZ"
+inurl:subcategories.php?id=" site:FUZZ"
+inurl:topic.php?ID=" site:FUZZ"
+inurl:updates.php?ID=" site:FUZZ"
+inurl:view.php?cid=" site:FUZZ"
+inurl:view_cart.php?title=" site:FUZZ"
+inurl:view_detail.php?ID=" site:FUZZ"
+inurl:viewcart.php?CartId=" site:FUZZ"
+inurl:viewCart.php?userID=" site:FUZZ"
+inurl:index.php?site=" site:FUZZ"
+inurl:content.php?page_id=" site:FUZZ"
+inurl:index.php?section=" site:FUZZ"
+inurl:index.php?page=" site:FUZZ"
+inurl:detail.php?ID=" site:FUZZ"
+inurl:forum/profile.php?id=" site:FUZZ"
+inurl:pages.php?id=" site:FUZZ"
+inurl:content/index.php?id=" site:FUZZ"
+inurl:index.php?i=" site:FUZZ"
+inurl?action=" site:FUZZ"
+inurl:index.php?pageid=" site:FUZZ"
+inurl:page.php?modul=" site:FUZZ"
+inurl:index.php?w=" site:FUZZ"
+inurl:item.php?id=" site:FUZZ"
+inurl:shop/index.php?cPath=" site:FUZZ"
+inurl:catalog/product.php?pid=" site:FUZZ"
+inurl:rating.php?id=" site:FUZZ"
+inurl:?page=" site:FUZZ"
+inurl:main.php?cat_id=" site:FUZZ"
+inurl:detail.php?prodid=" site:FUZZ"
+inurl:products/product.php?pid=" site:FUZZ"
+inurl:default.php?cPath=" site:FUZZ"
+inurl:category.php?catid=" site:FUZZ"
+inurl:categories.php?cat=" site:FUZZ"
+inurl:category.php?id=" site:FUZZ"
+inurl:index.php?area_id=" site:FUZZ"
+inurl:gallery.php?id=" site:FUZZ"
+inurl:general.php?id=" site:FUZZ"
+inurl:content/detail.php?id=" site:FUZZ"
+inurl:product.php?id=" site:FUZZ"
+inurl:index.php?url=" site:FUZZ"
+inurl:ls.php?id=" site:FUZZ"
+inurl:s.php?w=" site:FUZZ"
+inurl:about.php?cartID=" site:FUZZ"
+inurl:accinfo.php?cartId=" site:FUZZ"
+inurl:acclogin.php?cartID=" site:FUZZ"
+inurl:add.php?id=" site:FUZZ"
+inurl:article.php?id=" site:FUZZ"
+inurl:browse.php?id=" site:FUZZ"
+inurl:cart.php?action=" site:FUZZ"
+inurl:cart.php?cart_id=" site:FUZZ"
+site:FUZZ inurl:?view=
+site:FUZZ inurl:/login?to=
+site:FUZZ inurl:returnTo
+site:FUZZ inurl:redirecionamento
+site:FUZZ inurl:checkout_url=
+site:FUZZ inurl:return_path
+site:FUZZ inurl:?uri=
+site:FUZZ inurl:?path=
+site:FUZZ inurl:?window=
+site:FUZZ inurl:?reference=
+site:FUZZ inurl:?html=
+site:FUZZ inurl:?domain=""
+site:FUZZ inurl:?callback=
+site:FUZZ inurl:?feed=
+site:FUZZ inurl:?dir=
+site:FUZZ inurl:?cmd=
+site:FUZZ inurl:?exec=
+site:FUZZ inurl:?command=
+site:FUZZ inurl:?execute=
+site:FUZZ inurl:?ping=
+site:FUZZ inurl:?query=
+site:FUZZ inurl:?reg=
+site:FUZZ inurl:?do=""
+site:FUZZ inurl:?func=
+site:FUZZ inurl:?arg=
+site:FUZZ inurl:?option=
+site:FUZZ inurl:?load=
+site:FUZZ inurl:?step=
+site:FUZZ inurl:?read=
+site:FUZZ inurl:?function=
+site:FUZZ inurl:?feature=
+site:FUZZ inurl:?exe=
+site:FUZZ inurl:?module=
+site:FUZZ inurl:?payload=
+site:FUZZ ext:ppt | ext:docx | ext:pdf | ext:rtf | ext:csv | ext:doc intext:confidencial
+site:FUZZ Index of /" +.htaccess"
+site:FUZZ Index of /" +passwd"
+site:FUZZ Index of /" +password.txt"
+site:FUZZ Index of /admin""
+site:FUZZ Index of /backup""
+site:FUZZ Index of /mail""
+site:FUZZ Index of /password""
+site:FUZZ Index of" inurl:phpmyadmin"
+site:FUZZ Internal Server Error" "server at""
+site:FUZZ Invision Power Board Database Error""
+site:FUZZ JRun Web Server" intitle:index.of"
+site:FUZZ Login - Sun Cobalt RaQ""
+site:FUZZ Login to Usermin" inurl:20000"
+site:FUZZ Login – Sun Cobalt RaQ""
+site:FUZZ Login to Usermin" inurl:20000"
+site:FUZZ Looking Glass"  (inurl:"lg/" | inurl:lookingglass)"
+site:FUZZ MaXX/3.1" intitle:index.of"
+site:FUZZ MacHTTP" filetype:log inurl:machttp.log"
+site:FUZZ Mail-it Now!" intitle:"Contact form" | inurl:contact.php"
+site:FUZZ Maintained with Subscribe Me 2.044.09p"+"Professional" inurl:"s.pl""
+site:FUZZ Mecury Version" "Infastructure Group""
+site:FUZZ Microsoft (R) Windows (TM) Version DrWtsn32 Copyright (C)" ext:log"
+site:FUZZ Microsoft (R) Windows * (TM) Version * DrWtsn32 Copyright (C)" ext:log"
+site:FUZZ Microsoft CRM : Unsupported Browser Version""
+site:FUZZ Microsoft ® Windows * ™ Version * DrWtsn32 Copyright ©" ext:log"
+site:FUZZ Microsoft ® Windows ™ Version DrWtsn32 Copyright ©" ext:log"
+site:FUZZ Microsoft-IIS/* server at" intitle:index.of"
+site:FUZZ Microsoft-IIS/4.0" intitle:index.of"
+site:FUZZ Microsoft-IIS/5.0 server at""
+site:FUZZ Microsoft-IIS/6.0" intitle:index.of"
+site:FUZZ Netware * Home" inurl:nav.html"
+site:FUZZ Network Host Assessment Report" "Internet Scanner""
+site:FUZZ Network Vulnerability Assessment Report""
+site:FUZZ Novell
+site:FUZZ ORA-00921: unexpected end of SQL command""
+site:FUZZ ORA-00933: SQL command not properly ended""
+site:FUZZ ORA-00936: missing expression""
+site:FUZZ ORA-12541: TNS:no listener" intitle:"error occurred""
+site:FUZZ OmniHTTPd/2.10" intitle:index.of"
+site:FUZZ Online Store – Powered by ProductCart""
+site:FUZZ OpenSA/1.0.4" intitle:index.of"
+site:FUZZ Output produced by SysWatch ""
+site:FUZZ Output produced by SysWatch *""
+site:FUZZ Parse error: parse error
+site:FUZZ Please authenticate yourself to get access to the management interface""
+FUZZ Please login with admin pass" -"leak" -sourceforge"
+site:FUZZ Please re-enter your password It must match exactly""
+site:FUZZ PostgreSQL query failed:  ERROR:  parser: parse error""
+site:FUZZ PostgreSQL query failed: ERROR: parser: parse error""
+site:FUZZ Powered by CubeCart""
+site:FUZZ Powered by WordPress" -html filetype:php -demo -wordpress.org -bugtraq"
+site:FUZZ Powered by: vBulletin Version 1.1.5?""
+site:FUZZ Select a database to view" intitle:"filemaker pro""
+FUZZ Shadow Security Scanner performed a vulnerability assessment""
+site:FUZZ Site powered By Limbo CMS""
+site:FUZZ SnortSnarf alert page""
+site:FUZZ Supplied argument is not a valid MySQL result resource""
+site:FUZZ Supplied argument is not a valid PostgreSQL result""
+site:FUZZ inurl:/cgi/user.cgi ext:cgi
+site:FUZZ Switch to table format" inurl:table|plain"
+site:FUZZ Syntax error in query expression " -the"
+site:FUZZ SysCP - login""
+site:FUZZ The following report contains confidential information" vulnerability -search"
+site:FUZZ The s?ri?t whose uid is " "is not allowed to access""
+site:FUZZ The statistics were last upd?t?d" "Daily"-microsoft.com"
+site:FUZZ This file was generated by Nessus""
+site:FUZZ This page has been automatically generated by Plesk Server Administrator""
+site:FUZZ This report was generated by WebLog""
+site:FUZZ This section is for Administrators only. If you are an administrator then please""
+site:FUZZ This summary was generated by wwwstat""
+site:FUZZ To view the Web interface of the SpeedTouch
+site:FUZZ Unable to jump to row" "on MySQL result index" "on line""
+site:FUZZ Unclosed quotation mark before the character string""
+site:FUZZ VHCS Pro ver" -demo"
+site:FUZZ VNC Desktop" inurl:5800"
+site:FUZZ Version Info" "Boot Version" "Internet Settings""
+site:FUZZ Warning: Bad arguments to (join|implode) () in" "on line" -help -forum"
+site:FUZZ Warning: Cannot modify header information - headers already sent""
+site:FUZZ Warning: Division by zero in" "on line" -forum"
+site:FUZZ Warning: Supplied argument is not a valid File-Handle resource in""
+site:FUZZ Warning: mysql_connect(): Access denied for user: '*@*" "on line"  -help -forum"
+site:FUZZ Warning: mysql_connect(): Access denied for user: '@" "on line" -help -forum"
+site:FUZZ Warning: mysql_query()" "invalid query""
+site:FUZZ Warning: pg_connect(): Unable to connect to PostgreSQL server: FATAL""
+site:FUZZ Warning:" "Cannot execute a blank command in""
+site:FUZZ Warning:" "failed to open stream: HTTP request failed" "on line""
+site:FUZZ Web File Browser" "Use regular expression""
+site:FUZZ WebExplorer Server - Login" "Welcome to WebExplorer Server""
+site:FUZZ WebSTAR Mail – Please Log In""
+site:FUZZ Welcome to Intranet""
+site:FUZZ Welcome to PHP-Nuke" congratulations"
+site:FUZZ Welcome to phpMyAdmin" " Create new database""
+site:FUZZ Welcome to phpMyAdmin" AND " Create new database""
+site:FUZZ Welcome to the Prestige Web-Based Configurator""
+site:FUZZ Welcome to the directory listing of" "NetworkActiv-Web-Server""
+site:FUZZ Welcome to the versatileBulletinBoard" | "Powered by versatileBulletinBoard""
+site:FUZZ YaBB SE Dev Team""
+site:FUZZ You have an error in your SQL syntax near""
+site:FUZZ You have requested access to a restricted area of our website. Please authenticate yourself to continue.""
+site:FUZZ You have requested to access the management functions""
+site:FUZZ Your password is * Remember this for later use""
+site:FUZZ access denied for user" "using password""
+site:FUZZ allow_call_time_pass_reference" "PATH_INFO""
+site:FUZZ delivered by mailman" inurl:admin/mailman | intitle:"Mailman Administrator Authentication""
+site:FUZZ id=" & intext:"Warning: array_merge()"
+site:FUZZ id=" & intext:"Warning: filesize()"
+site:FUZZ id=" & intext:"Warning: getimagesize()"
+site:FUZZ id=" & intext:"Warning: ilesize()"
+site:FUZZ id=" & intext:"Warning: mysql_fetch_array()"
+site:FUZZ id=" & intext:"Warning: mysql_num_rows()"
+site:FUZZ id=" & intext:"Warning: mysql_query()"
+site:FUZZ id=" & intext:"Warning: preg_match()"
+site:FUZZ id=" & intext:"Warning: session_start()"
+site:FUZZ index of /" ( upload.cfm | upload.asp | upload.php | upload.cgi | upload.jsp | upload.pl )"
+site:FUZZ index of /private" "
+site:FUZZ index of cgi-bin""
+site:FUZZ index of" / lck"
+site:FUZZ index of" intext:fckeditor inurl:fckeditor"
+site:FUZZ index of" inurl:recycler"
+site:FUZZ index of/" "ws_ftp.ini" "parent directory""
+site:FUZZ inurl:admin.asp""
+site:FUZZ inurl:admin/login.asp""
+site:FUZZ inurl:admin_login.asp""
+site:FUZZ inurl:adminhome.asp""
+site:FUZZ inurl:administrator_login.asp""
+site:FUZZ inurl:administratorlogin.asp""
+site:FUZZ inurl:adminlogin.asp""
+site:FUZZ inurl:login/admin.asp""
+site:FUZZ inurl:login/administrator.asp""
+site:FUZZ inurl:login/administrador.asp""
+site:FUZZ login: *" "password= *" filetype:xls"
+site:FUZZ pcANYWHERE EXPRESS Java Client""
+site:FUZZ phpMyAdmin MySQL-Dump" "INSERT INTO" -"the""
+site:FUZZ phpMyAdmin MySQL-Dump" filetype:txt"
+site:FUZZ phpMyAdmin" "running on" inurl:"main.php""
+site:FUZZ phpinfo.php" -manual"
+site:FUZZ robots.txt" "Disallow:" filetype:txt"
+site:FUZZ running: Nucleus v3.1? -.nucleuscms.org -demo"
+site:FUZZ seeing this instead" intitle:"test page for apache""
+site:FUZZ set up the administrator user" inurl:pivot"
+site:FUZZ Enter Admin Password""
+site:FUZZ ttawlogin.cgi/?action=""
+site:FUZZ xampp/phpinfo"
+site:FUZZ ( filetype:mail | filetype:eml | filetype:mbox | filetype:mbx ) intext:password|subject
+site:FUZZ ( intitle:PacketShaper Login")|(intitle:"PacketShaper Customer Login")"
+site:FUZZ (Fiery WebTools" inurl:index2.html) | "WebTools enable * * observe
+site:FUZZ (Indexed.By"|"Monitored.By") hAcxFtpScan"
+site:FUZZ (port_255/home")|(inurl:"home?port=255?)"
+site:FUZZ inurl:setup-config.php?step=""
+site:FUZZ (inurl:robot.txt" | inurl:"robots.txt" ) intext:disallow filetype:txt"
+site:FUZZ (inurl:webArch/mainFrame.cgi ) | (intitle:web image monitor" -htm -solutions)"
+site:FUZZ ********.php?cid=
+site:FUZZ ********.php?id=
+site:FUZZ ********s_in_area.php?area_id=
+site:FUZZ ****.php?cid=
+site:FUZZ *.php?catch=
+site:FUZZ *.php?go=
+site:FUZZ *.php?include=
+site:FUZZ *.php?inf=
+site:FUZZ *.php?layout=
+site:FUZZ *.php?load=
+site:FUZZ *.php?loc=
+site:FUZZ *.php?locate=
+site:FUZZ *.php?name=
+site:FUZZ *.php?pg=
+site:FUZZ *default.php?page=
+site:FUZZ *inc*.php?addr=
+site:FUZZ *inc*.php?base_dir=
+site:FUZZ *inc*.php?category=
+site:FUZZ *inc*.php?get=
+site:FUZZ *inc*.php?i=
+site:FUZZ *inc*.php?include=
+site:FUZZ *inc/header.php/step_one.php?server_inc=
+site:FUZZ *inc/pipe.php?HCL_path=
+site:FUZZ *include/new-visitor.inc.php?lvc_include_dir=
+site:FUZZ *include/write.php?dir=
+site:FUZZ *includes/header.php?systempath=
+site:FUZZ *index.php?arquivo=
+site:FUZZ *index.php?url=
+site:FUZZ inurl:.asp?CategoryID=""
+site:FUZZ inurl:.asp?ProdID=""
+site:FUZZ inurl:.asp?Sku=""
+site:FUZZ inurl:.asp?StyleID=""
+site:FUZZ inurl:.asp?cart=""
+site:FUZZ inurl:.asp?cartID=""
+site:FUZZ inurl:.asp?catID=""
+site:FUZZ inurl:.asp?catalogid=""
+site:FUZZ inurl:.asp?category_list=""
+site:FUZZ inurl:.asp?cid=""
+site:FUZZ inurl:.asp?code=""
+site:FUZZ inurl:.asp?id=""
+site:FUZZ inurl:.asp?idcategory=""
+site:FUZZ inurl:.asp?misc=""
+site:FUZZ inurl:.asp?p=""
+site:FUZZ inurl:.asp?pid=""
+site:FUZZ inurl:.asp?product=""
+site:FUZZ inurl:.asp?userID=""
+site:FUZZ inurl:/index.php?loc=""
+site:FUZZ inurl:/index.php?ficheiro=""
+site:FUZZ inurl:/index.php?arquivo=""
+site:FUZZ inurl:.php?Page_ID=""
+site:FUZZ inurl:.php?a=""
+site:FUZZ inurl:.php?abrir=""
+site:FUZZ inurl:.php?act=""
+site:FUZZ inurl:.php?action=""
+site:FUZZ inurl:.php?default=""
+site:FUZZ inurl:.php?destino=""
+site:FUZZ inurl:.php?dir=""
+site:FUZZ inurl:.php?display=""
+site:FUZZ inurl:.php?file=""
+site:FUZZ inurl:.php?file_id=""
+site:FUZZ inurl:.php?filepath=""
+site:FUZZ inurl:.php?folder=""
+site:FUZZ inurl:.php?funcao=""
+site:FUZZ inurl:.php?function=""
+site:FUZZ inurl:.php?g=""
+site:FUZZ inurl:.php?get=""
+site:FUZZ inurl:.php?go=""
+site:FUZZ inurl:.php?meio.php=""
+site:FUZZ inurl:.php?meio=""
+site:FUZZ inurl:.php?mostra=""
+site:FUZZ inurl:.php?origem=""
+site:FUZZ inurl:.php?pageurl=""
+site:FUZZ inurl:.php?para=""
+site:FUZZ inurl:.php?prefix=""
+site:FUZZ inurl:.php?prefixo=""
+site:FUZZ inurl:timeout=""
+site:reclameaqui.com.br intext:FUZZ | intext:FUZZ segurança
